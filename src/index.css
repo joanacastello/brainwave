@@ -86,3 +86,88 @@
 .-rotate-360 {
   @apply rotate-[-360deg];
 }
+
+.hovered-icon {
+  transform: translate(0, 50px);
+  transition: transform 0.4s ease-in-out;
+}
+
+.hovered-icon-45 {
+  transform: translate(0, 50px) rotate(45);
+  transition: transform 0.4s ease-in-out;
+}
+
+.hovered-icon-90 {
+  transform: translate(0, 50px) rotate(90);
+  transition: transform 0.4s ease-in-out;
+}
+
+.hovered-icon-135 {
+  transform: translate(0, 50px) rotate(135);
+  transition: transform 0.4s ease-in-out;
+}
+
+.hovered-icon-180 {
+  transform: translate(0, 50px) rotate(180);
+  transition: transform 0.4s ease-in-out;
+}
+
+.hovered-icon-225 {
+  transform: translate(0, 50px) rotate(225);
+  transition: transform 0.4s ease-in-out;
+}
+
+.hovered-icon-270 {
+  transform: translate(0, 50px) rotate(270);
+  transition: transform 0.4s ease-in-out;
+}
+
+.hovered-icon-315 {
+  transform: translate(0, 50px) rotate(315);
+  transition: transform 0.4s ease-in-out;
+}
+
+.hovered-icon-360 {
+  transform: translate(0, 50px) rotate(360);
+  transition: transform 0.4s ease-in-out;
+}
+
+.-hovered-icon-45 {
+  transform: translate(0, 50px) rotate(-45);
+  transition: transform 0.4s ease-in-out;
+}
+
+.-hovered-icon-90 {
+  transform: translate(0, 50px) rotate(-90);
+  transition: transform 0.4s ease-in-out;
+}
+
+.-hovered-icon-135 {
+  transform: translate(0, 50px) rotate(-135);
+  transition: transform 0.4s ease-in-out;
+}
+
+.-hovered-icon-180 {
+  transform: translate(0, 50px) rotate(-180);
+  transition: transform 0.4s ease-in-out;
+}
+
+.-hovered-icon-225 {
+  transform: translate(0, 50px) rotate(-225);
+  transition: transform 0.4s ease-in-out;
+}
+
+.-hovered-icon-270 {
+  transform: translate(0, 50px) rotate(-270);
+  transition: transform 0.4s ease-in-out;
+}
+
+.-hovered-icon-315 {
+  transform: translate(0, 50px) rotate(-315);
+  transition: transform 0.4s ease-in-out;
+}
+
+.-hovered-icon-360 {
+  transform: translate(0, 50px) rotate(-360);
+  transition: transform 0.4s ease-in-out;
+}
