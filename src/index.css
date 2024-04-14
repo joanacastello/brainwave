@@ -92,82 +92,88 @@
   transition: transform 0.4s ease-in-out;
 }
 
+.hovered-icon-0,
+.-hovered-icon-0 {
+  transform: translate(0, 50px);
+  transition: transform 0.4s ease-in-out;
+}
+
 .hovered-icon-45 {
-  transform: translate(0, 50px) rotate(45);
+  transform: translate(0, 50px) rotate(45deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .hovered-icon-90 {
-  transform: translate(0, 50px) rotate(90);
+  transform: translate(0, 50px) rotate(90deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .hovered-icon-135 {
-  transform: translate(0, 50px) rotate(135);
+  transform: translate(0, 50px) rotate(135deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .hovered-icon-180 {
-  transform: translate(0, 50px) rotate(180);
+  transform: translate(0, 50px) rotate(180deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .hovered-icon-225 {
-  transform: translate(0, 50px) rotate(225);
+  transform: translate(0, 50px) rotate(225deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .hovered-icon-270 {
-  transform: translate(0, 50px) rotate(270);
+  transform: translate(0, 50px) rotate(270deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .hovered-icon-315 {
-  transform: translate(0, 50px) rotate(315);
+  transform: translate(0, 50px) rotate(315deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .hovered-icon-360 {
-  transform: translate(0, 50px) rotate(360);
+  transform: translate(0, 50px) rotate(360deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .-hovered-icon-45 {
-  transform: translate(0, 50px) rotate(-45);
+  transform: translate(0, 50px) rotate(-45deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .-hovered-icon-90 {
-  transform: translate(0, 50px) rotate(-90);
+  transform: translate(0, 50px) rotate(-90deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .-hovered-icon-135 {
-  transform: translate(0, 50px) rotate(-135);
+  transform: translate(0, 50px) rotate(-135deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .-hovered-icon-180 {
-  transform: translate(0, 50px) rotate(-180);
+  transform: translate(0, 50px) rotate(-180deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .-hovered-icon-225 {
-  transform: translate(0, 50px) rotate(-225);
+  transform: translate(0, 50px) rotate(-225deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .-hovered-icon-270 {
-  transform: translate(0, 50px) rotate(-270);
+  transform: translate(0, 50px) rotate(-270deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .-hovered-icon-315 {
-  transform: translate(0, 50px) rotate(-315);
+  transform: translate(0, 50px) rotate(-315deg);
   transition: transform 0.4s ease-in-out;
 }
 
 .-hovered-icon-360 {
-  transform: translate(0, 50px) rotate(-360);
+  transform: translate(0, 50px) rotate(-360deg);
   transition: transform 0.4s ease-in-out;
 }

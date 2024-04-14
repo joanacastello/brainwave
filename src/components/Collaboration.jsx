@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { brainwaveSymbol, check } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
@@ -6,19 +6,25 @@ import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
-  const iconOnHoverStyle = {
-    transform: `translate(10px, 20px)`,
-    transition: `transform 0.5 ease-in-out`,
-  };
-
   const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  useEffect(
+    (index) => {
+      if (hoveredIndex === index) {
+        return;
+      }
+      const timeoutId = window.setTimeout(() => {
+        setHoveredIndex(null);
+      }, 1000);
+      return () => {
+        window.clearTimeout(timeoutId);
+      };
+    },
+    [hoveredIndex]
+  );
 
   const handleMouseEnter = (index) => {
     setHoveredIndex(index);
-  };
-
-  const handleMouseLeave = () => {
-    setHoveredIndex(null);
   };
 
   return (
@@ -43,7 +49,7 @@ const Collaboration = () => {
           </ul>
           <Button>Try it now</Button>
         </div>
-        <div className="lg:ml-auto xl:2-[38rem] mt-4">
+        <div className="lg:ml-auto mr-[4rem] xl:2-[38rem] mt-4">
           <p className="body-2 mb-6 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
             {collabText}
           </p>
@@ -65,15 +71,18 @@ const Collaboration = () => {
                 <li
                   key={app.id}
                   onMouseEnter={() => handleMouseEnter(index)}
-                  onMouseLeave={handleMouseLeave}
                   className={`absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom rotate-${
                     index * 45
                   }`}
                 >
                   <div
-                    className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
+                    className={`relative -top-[1.6rem] flex w-[4rem] h-[4rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
                       index * 45
-                    } ${hoveredIndex === index ? "hovered-icon" : ""}`}
+                    } ${
+                      hoveredIndex === index
+                        ? `-hovered-icon-${index * 45}`
+                        : ""
+                    }`}
                   >
                     <img
                       src={app.icon}
