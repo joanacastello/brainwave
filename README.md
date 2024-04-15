@@ -8,4 +8,4 @@ This tutorial was followed to improve my abilities stack, in particular:
 - UX/UI.
 - Good practices.
 
-You can access to the website [here](https://youtu.be/B91wc5dCEBA?si=zbCjvqE2ITUI5zNM).
+You can access to the website [here](https://brainwave-puce-two.vercel.app/).
