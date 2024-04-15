@@ -8,6 +8,7 @@ import { LeftCurve, RightCurve } from "./design/Collaboration";
 const Collaboration = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
+  //hola
   useEffect(
     (index) => {
       if (hoveredIndex === index) {
