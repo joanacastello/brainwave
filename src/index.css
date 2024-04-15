@@ -87,11 +87,6 @@
   @apply rotate-[-360deg];
 }
 
-.hovered-icon {
-  transform: translate(0, 50px);
-  transition: transform 0.4s ease-in-out;
-}
-
 .hovered-icon-0,
 .-hovered-icon-0 {
   transform: translate(0, 50px);
