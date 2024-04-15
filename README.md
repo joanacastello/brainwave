@@ -1,8 +1,11 @@
-# React + Vite
+# Brainwave 🧠
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website is a landing page for an AI service. It has different sections as Hero, Pricing, Services, Benefits... It has a modern design with animations to dive deeper into React and UX/UI concepts. It was developed following this [amazing tutorial](https://youtu.be/B91wc5dCEBA?si=zbCjvqE2ITUI5zNM).
 
-Currently, two official plugins are available:
+This tutorial was followed to improve my abilities stack, in particular:
+- React.
+- Tailwind and CSS animations.
+- UX/UI.
+- Good practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can access to the website [here](https://youtu.be/B91wc5dCEBA?si=zbCjvqE2ITUI5zNM).
