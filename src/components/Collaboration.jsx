@@ -15,7 +15,7 @@ const Collaboration = () => {
       }
       const timeoutId = window.setTimeout(() => {
         setHoveredIndex(null);
-      }, 1000);
+      }, 500);
       return () => {
         window.clearTimeout(timeoutId);
       };
@@ -82,7 +82,7 @@ const Collaboration = () => {
                       hoveredIndex === index
                         ? `-hovered-icon-${index * 45}`
                         : ""
-                    }`}
+                    } transition ease-in-out delay-150`}
                   >
                     <img
                       src={app.icon}
